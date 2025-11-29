@@ -1,0 +1,171 @@
+Build a complete, production-ready React (.jsx) website for Terravision, a company specializing in Fit-Out Services, Renovation Works, MEP (Mechanical, Electrical & Plumbing), Civil Works, and Painting Works. The output should include all pages, components, routing, folder structure, placeholder images/text, and reusable modular components.
+
+1. Tech Stack & Functionality
+
+React (.jsx) with functional components
+
+React Router for navigation
+
+CSS or CSS Modules for styling
+
+Fully responsive (mobile → desktop)
+
+Smooth scrolling
+
+Subtle fade/slide animations
+
+Lazy-loaded images
+
+SEO-friendly <head> elements
+
+Accessible alt tags
+
+Floating WhatsApp button on all pages
+
+2. Design Style
+
+Theme: Modern, minimal, premium architecture & engineering
+
+Colors: Terracotta (#A64B2A), Charcoal (#1F1F1F), White, Muted Green (#5C6F60)
+
+Typography: Clean, professional, architectural
+
+Visuals: Placeholder architectural imagery
+
+Animations: Subtle fade/slide effects for sections and cards
+
+3. Folder & Component Structure
+/src
+  /components
+    Navbar.jsx
+    Footer.jsx
+    WhatsAppButton.jsx
+    ServiceCard.jsx
+    ProjectCard.jsx
+    TestimonialSlider.jsx
+    TimelineStep.jsx
+    ContactForm.jsx
+  /pages
+    Home.jsx
+    About.jsx
+    Services.jsx
+    Projects.jsx
+    Execution.jsx
+    Contact.jsx
+  /assets
+    images (placeholder images)
+  styles.css
+  App.jsx
+  main.jsx
+
+4. Routing
+
+Use React Router to navigate between pages
+
+Navbar should highlight active page
+
+Include scroll-to-section links for the home page
+
+5. Page Details & Components
+
+Home.jsx
+
+Hero section: “End-to-End Fit-Out, Renovation, MEP & Civil Works Solutions”
+
+Service highlights using ServiceCard
+
+Featured projects using ProjectCard
+
+Testimonials slider (TestimonialSlider)
+
+CTAs: Request a Quote, Book Consultation
+
+Floating WhatsApp button (WhatsAppButton)
+
+About.jsx
+
+Company story
+
+Mission & Values
+
+Leadership & team section
+
+Why choose Terravision (Quality, Safety, On-time delivery, Professional execution)
+
+Services.jsx
+
+Sections for each service:
+
+Fit-Out, Renovation, MEP, Civil Works, Painting
+
+Each service: Title, short description, placeholder image (ServiceCard)
+
+Projects.jsx
+
+Filterable project grid (Fit-Out, Renovation, MEP, Civil Works, Painting)
+
+Project detail template: Overview, Scope, Challenges, Before/After images slider (ProjectCard)
+
+Execution.jsx
+
+Timeline layout with TimelineStep component
+
+Steps: Initial Consultation → Site Inspection → Planning & Costing → Execution → Quality Control & Handover
+
+Include icons and subtle animations
+
+Contact.jsx
+
+Contact form (ContactForm.jsx): Name, Email, Phone, Message
+
+Company details and Google Maps placeholder
+
+CTA: Request a Quote
+
+Floating WhatsApp button
+
+6. Component Guidelines
+
+Navbar.jsx: Responsive navigation, active link highlighting
+
+Footer.jsx: Company info, quick links
+
+WhatsAppButton.jsx: Persistent floating button
+
+ServiceCard.jsx: Image, title, short description
+
+ProjectCard.jsx: Image, title, category, modal or link to project detail
+
+TestimonialSlider.jsx: Slider of testimonials with name, role, text
+
+TimelineStep.jsx: Icon, step title, description
+
+ContactForm.jsx: Form validation, submission placeholder
+
+7. Styling & UX
+
+Modern, minimal, professional layout
+
+Responsive design with CSS Flex/Grid
+
+Subtle fade/slide animations on scroll
+
+Consistent typography and color palette
+
+Clean, modular CSS or CSS Modules
+
+8. Output Requirements
+
+Provide the entire React project:
+
+/src folder with components, pages, assets, styles
+
+App.jsx with routing
+
+main.jsx entry point
+
+Placeholder images and text
+
+Reusable components for services, projects, testimonials, timeline, WhatsApp button
+
+Code should be production-ready, clean, and well-commented
