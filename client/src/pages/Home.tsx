@@ -13,6 +13,7 @@ import {
   CheckCircle2
 } from "lucide-react";
 import type { Project, Testimonial } from "@shared/schema";
+import { Hero } from "@/components/Hero";
 
 const services = [
   {
@@ -135,22 +136,22 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section 
+
+      <Hero />
+
+      {/* <section 
         className="relative min-h-[90vh] flex items-center justify-start overflow-hidden"
         data-testid="section-hero"
-      >
-        {/* Background Image */}
+      > 
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80')",
           }}
         />
-        
-        {/* Gradient Overlay */}
+         
         <div className="absolute inset-0 hero-gradient" />
-
-        {/* Content */}
+ 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
           <div className="max-w-3xl animate-fade-in-up">
             <span className="inline-block px-4 py-2 bg-white/10 backdrop-blur-sm text-white text-sm font-medium rounded-full mb-6 border border-white/20">
@@ -184,16 +185,14 @@ export default function Home() {
             </div>
           </div>
         </div>
-
-        {/* Scroll Indicator */}
+ 
         <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
           <div className="w-6 h-10 rounded-full border-2 border-white/40 flex items-start justify-center p-2">
             <div className="w-1.5 h-3 bg-white/60 rounded-full animate-pulse" />
           </div>
         </div>
-      </section>
-
-      {/* Stats Section */}
+      </section> */}
+ 
       <section className="py-12 bg-primary" data-testid="section-stats">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
